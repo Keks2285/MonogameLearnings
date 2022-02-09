@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "yXRAfLizb+yCqA8GQsH3YW88aFtnr3Cp4WDfaTFpU0zinStbPCMh6L9cCHRvO/y7Qw2mJgETThi2jCdt5Wy80w==",
+  "success": true,
+  "projectFilePath": "D:\\GitHub\\MonogameLearnings\\Niko\\Niko.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Ilyich\\.nuget\\packages\\monogame.content.builder.task\\3.8.0.1641\\monogame.content.builder.task.3.8.0.1641.nupkg.sha512",
+    "C:\\Users\\Ilyich\\.nuget\\packages\\monogame.framework.android\\3.8.0.1641\\monogame.framework.android.3.8.0.1641.nupkg.sha512"
+  ],
+  "logs": []
+}

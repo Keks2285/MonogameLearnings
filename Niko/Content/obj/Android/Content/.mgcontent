@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SourceFileCollection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Profile>Reach</Profile>
+  <Platform>Android</Platform>
+  <Config />
+  <SourceFiles>
+    <File>D:/GitHub/MonogameLearnings/Niko/Content/F.spritefont</File>
+    <File>D:/GitHub/MonogameLearnings/Niko/Content/File.spritefont</File>
+    <File>D:/GitHub/MonogameLearnings/Niko/Content/testimage.jpeg</File>
+    <File>D:/GitHub/MonogameLearnings/Niko/Content/Up.png</File>
+  </SourceFiles>
+  <DestFiles>
+    <File xsi:nil="true" />
+    <File>TestText.spritefont</File>
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+  </DestFiles>
+</SourceFileCollection>

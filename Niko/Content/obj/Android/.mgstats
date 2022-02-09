@@ -1,0 +1,4 @@
+Source File,Dest File,Processor Type,Content Type,Source File Size,Dest File Size,Build Seconds
+"D:/Niko/Content/File.spritefont","D:/Niko/Content/bin/Android/TestText.xnb","FontDescriptionProcessor","SpriteFontContent",2008,37922,0,4721151
+"D:/Niko/Content/testimage.jpeg","D:/Niko/Content/bin/Android/testimage.xnb","TextureProcessor","Texture2DContent",187569,4315745,0,2263475
+"D:/Niko/Content/Up.png","D:/Niko/Content/bin/Android/Up.xnb","TextureProcessor","Texture2DContent",15237,3385685,0,1134385
