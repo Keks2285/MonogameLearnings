@@ -1,4 +1,5 @@
 using Android.App;
+using Android.Content;
 using Android.Content.PM;
 using Android.OS;
 using Android.Views;
@@ -19,7 +20,7 @@ namespace Niko
     {
         private NikoGame _game;
         private View _view;
-
+        Bundle b;
         protected override void OnCreate(Bundle bundle)
         {
             base.OnCreate(bundle);
@@ -30,5 +31,16 @@ namespace Niko
             SetContentView(_view);
             _game.Run();
         }
+        //public async void StartLevel2()
+        //{
+        //    base.OnCreate(b);
+
+        //    var intent = new Intent(this, typeof(Activity2));
+        //    intent.SetFlags(ActivityFlags.NewTask);
+        //    //Navigation to SecondActivity
+        //    StartActivity(intent);
+        //    //delete main activity from navigation
+        //    Finish();
+        //}
     }
 }

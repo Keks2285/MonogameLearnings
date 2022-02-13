@@ -4,10 +4,10 @@
   <Platform>Android</Platform>
   <Config />
   <SourceFiles>
-    <File>D:/GitHub/MonogameLearnings/Niko/Content/F.spritefont</File>
-    <File>D:/GitHub/MonogameLearnings/Niko/Content/File.spritefont</File>
-    <File>D:/GitHub/MonogameLearnings/Niko/Content/testimage.jpeg</File>
-    <File>D:/GitHub/MonogameLearnings/Niko/Content/Up.png</File>
+    <File>C:/Users/Oleg/Documents/GitHub/MonogameLearnings/Niko/Content/F.spritefont</File>
+    <File>C:/Users/Oleg/Documents/GitHub/MonogameLearnings/Niko/Content/File.spritefont</File>
+    <File>C:/Users/Oleg/Documents/GitHub/MonogameLearnings/Niko/Content/testimage.jpeg</File>
+    <File>C:/Users/Oleg/Documents/GitHub/MonogameLearnings/Niko/Content/Up.png</File>
   </SourceFiles>
   <DestFiles>
     <File xsi:nil="true" />

@@ -60,7 +60,9 @@ namespace Niko
                     }
                     else
                     {
-                        if (IsPressed) IsPressed = false;
+                    spriteBatch.Draw(TextureButton,
+                                  new Rectangle(x, y, width, height), Color.White);
+                    if (IsPressed) IsPressed = false;
                     }
                 }
                 else

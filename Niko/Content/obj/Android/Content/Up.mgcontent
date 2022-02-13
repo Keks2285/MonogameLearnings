@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PipelineBuildEvent xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <SourceFile>D:/GitHub/MonogameLearnings/Niko/Content/Up.png</SourceFile>
-  <SourceTime>2022-02-02T11:52:18.6661707+03:00</SourceTime>
-  <DestFile>D:/GitHub/MonogameLearnings/Niko/Content/bin/Android/Content/Up.xnb</DestFile>
-  <DestTime>2022-02-09T20:06:50.4916221+03:00</DestTime>
+  <SourceFile>C:/Users/Oleg/Documents/GitHub/MonogameLearnings/Niko/Content/Up.png</SourceFile>
+  <SourceTime>2022-02-10T15:30:11.9469467+03:00</SourceTime>
+  <DestFile>C:/Users/Oleg/Documents/GitHub/MonogameLearnings/Niko/Content/bin/Android/Content/Up.xnb</DestFile>
+  <DestTime>2022-02-10T20:28:25.6508613+03:00</DestTime>
   <Importer>TextureImporter</Importer>
   <ImporterTime>2020-08-10T19:17:54+03:00</ImporterTime>
   <Processor>TextureProcessor</Processor>

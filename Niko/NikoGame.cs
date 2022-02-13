@@ -6,11 +6,14 @@ using System;
 using System.Text;
 using System.IO;
 using System.Threading.Tasks;
+using Microsoft.Extensions.Logging;
 
 namespace Niko
 {
     public class NikoGame : Game
     {
+
+
         string file = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData), $@"Save.txt");
         //string contentPath = System.Forms.Application.StartupPath + "\\" + Content.RootDirectory;
         int x = 0;
@@ -21,8 +24,10 @@ namespace Niko
         Texture2D texture;       
         Button ButtonUp = new Button();
         SpriteFont font;
+        ActivityMain activity;
+       
        // var name = KeyboardInput.Show();;
-        
+
         public NikoGame()
         {
            
@@ -65,10 +70,12 @@ namespace Niko
             // TODO: Add your update logic here
             if (ButtonUp.IsPressed)
             {
-                //entered = KeyboardInput.Show("Name", "What's your name?", "Player");
 
-                var n = KeyboardInput.Show("Name", "What's your name?", "Player");
-                //entered = n.Result;
+
+                readKeyboardasync("Титульник","Описание","Строка", false);// вызов клавиатуры
+
+
+                //entered = KeyboardInput.Show("Name", "What's your name?", "Player").Result;
                 //if (n.Result != null)
                 //    entered = n.Result;
                 ////if (KeyboardInput.IsVisible == false) 
@@ -82,8 +89,9 @@ namespace Niko
             }
             else { }
             //if (entered != "") x = Convert.ToInt32(entered);
+          
 
-           
+           // entered = name.Result;
             base.Update(gameTime);
         }
 
@@ -114,17 +122,17 @@ namespace Niko
             return X;
         }
 
-        //private async void readKeyboardasync()
-        //{
-        //     entered = await KeyboardInput.Show("Name", "What's your name?", "Player");
-        //    var n = await KeyboardInput.Show("Name", "What's your name?", "Player");
-        //}
+        private async Task readKeyboardasync(string title, string description, string defaultstrng, bool passwordmode)
+        {
+   
+            entered= await KeyboardInput.Show(title, description, defaultstrng, passwordmode);
+        }
 
         protected override void Draw(GameTime gameTime)
         {
             GraphicsDevice.Clear(Color.Black);
             spriteBatch.Begin();
-            if (entered != "") x = 100;
+          //  if (entered != "") x = 100;
             spriteBatch.Draw(texture, new Rectangle(x,y, graphics.PreferredBackBufferWidth, graphics.PreferredBackBufferHeight),
             Color.White);
             spriteBatch.DrawString(font,@$"Score: {entered}", new Vector2(100, 100), Color.White);
